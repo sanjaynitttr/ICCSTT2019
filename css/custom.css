@@ -1,0 +1,321 @@
+@font-face { font-family: 'Segoe UI'; src: url('../fonts/SegoeUI-Bold.eot'); src: url('../fonts/SegoeUI-Boldd41d.eot?#iefix') format('embedded-opentype'), url('../fonts/SegoeUI-Bold.woff') format('woff'), url('../fonts/SegoeUI-Bold.ttf') format('truetype'); font-weight: bold; font-style: normal; }
+@font-face { font-family: 'Segoe UI'; src: url('../fonts/SegoeUI.eot'); src: url('../fonts/SegoeUId41d.eot?#iefix') format('embedded-opentype'), url('../fonts/SegoeUI.woff') format('woff'), url('../fonts/SegoeUI.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+
+body { font-family: 'Titillium Web', sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-weight: normal; font-family: 'Titillium Web', sans-serif; }
+h1 { font-size: 60px; line-height: 63px; }
+h2 { font-size: 47px; line-height: 50px; }
+h3 { font-size: 43px; line-height: 47px; }
+h4 { font-size: 33px; line-height: 33px; }
+h5 { font-size: 33px; line-height: 33px; }
+h6 { font-size: 25px; line-height: 28px; }
+p { font-size: 18px; line-height: 27px; color: #181e22; font-family: 'Segoe UI', sans-serif; padding-bottom: 18px; }
+/* Navigation
+-------------------------------------------------- */
+.navbar.navbar-default { background: #fff; box-shadow: none; border: none; border-radius: 0px; margin-bottom: inherit; }
+.navbar-brand { height: inherit; padding: 0; }
+.navbar-default .navbar-collapse { border: none; }
+.navbar-right { margin-top: 20px; }
+.navbar-default .navbar-nav > li > a { color: #000; font-family: 'Segoe UI', sans-serif; font-size: 17px; padding: 12px 11px; }
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .active > a { background: none; box-shadow: none; }
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { color: #ff5c12; }
+.iee-logo { margin: -10px 0 0; }
+/* Welcome text
+-------------------------------------------------- */
+
+.welcome-text { padding-bottom: 45px; }
+.welcome-text h1 { color: #ff5c12; font-weight: 200; padding: 45px 0 21px; }
+.welcome-text p { color: #5f6568; }
+.welcome-text h4 { color: #27a164; font-weight: 300; padding: 0 0 21px; }
+.welcome-text ul { list-style-type: none; padding: 0; margin: 0; }
+.welcome-text ul li { padding: 0 0 20px; }
+.welcome-text ul li, .welcome-text ul li p { font-family: 'Segoe UI', sans-serif; font-size: 24px; line-height: 27px; color: #5f6568; }
+.welcome-text ul li a { color: #ff5c12; font-size: 20px; line-height: 23px; }
+.welcome-text ul li p { padding: 0; margin: 0; }
+.welcome-text ul li span { display: block; font-size: 16px; line-height: 23px; color: #ff5c12; }
+.welcome-text ul li .old-date { text-decoration: line-through; padding-right: 10px; }
+.welcome-text ul li strong { color: #374853; }
+.welcome-text ul li span strong { color: #ff5c12; }
+.sidbar { border-left: solid 1px #e0e0e0; padding-left: 30px; margin: 83px 0 0; }
+/*Sponsored
+-------------------------------------------------- */
+.sponsored-wrapper { background: #f4f4f4; padding: 12px; margin-bottom: 52px; }
+.sponsored-wrapper p { padding: 0; margin: 0; font-family: 'Segoe UI', sans-serif; font-size: 18px; line-height: 22px; color: #606060; font-weight: bold; }
+.sponsored-wrapper p span { color: #ff5c12; }
+/*About SMIT
+-------------------------------------------------- */
+
+.about_smit { background: url(../images/about_bg.jpg) no-repeat 0 0; background-size: cover; padding: 24px 0 22px; }
+.about_smit h3 { padding-bottom: 22px; color: #10232e; font-weight: 300; }
+/*About ECE
+-------------------------------------------------- */
+
+.about-ece h3 { font-weight: 300; color: #ff5c12; padding: 35px 0 22px; }
+.ece-details { background: #f3f6f7; border: solid 1px #c1c7ca; margin: 38px 15px 0; padding: 15px 15px 0; }
+.ece-details h6 { font-family: 'Segoe UI', sans-serif; color: #27a063; }
+.ece-details h6.first-child { font-weight: bold; color: #ff3c00; text-transform: uppercase; }
+.ece-details p { font-size: 19px; color: #767676; max-width: 415px; }
+.ece-details p.head-department { font-size: 21px; line-height: 31px; }
+.ece-details p strong { font-size: 17px; color: #2a1f1b; display: block; }
+.ece-details p strong span { font-size: 17px; color: #767676; font-weight: normal; }
+/*Footer
+-------------------------------------------------- */
+footer { margin: 66px 0 0; padding: 45px 0 0; background: #0a161a; }
+footer h4 { color: #fff; font-weight: 600; padding-bottom: 24px; }
+footer ul, footer ul li { list-style-type: none; padding: 0; margin: 0; font-family: 'Segoe UI', sans-serif; }
+footer ul.footer-navigation li { padding: 8px 0; }
+footer ul.footer-navigation li a { font-size: 20px; line-height: 22px; color: #009cff; }
+footer ul.footer-navigation li a:hover { text-decoration: none; color: #fff; }
+footer ul.footer-imp-text li, footer ul.footer-imp-text li p { padding: 8px 0; font-size: 24px; line-height: 26px; color: #9b9fa1; margin: 0; }
+footer ul.footer-imp-text li span { font-size: 18px; line-height: 20px; color: #fff; display: block; padding: 3px 0 0; }
+footer ul.footer-imp-text li .old-date { text-decoration: line-through; padding-right: 10px; }
+footer p.organized span { font-family: 'Segoe UI', sans-serif; font-weight: bold; font-size: 19px; line-height: 22px; color: #fff; text-transform: uppercase; display: block; }
+footer p.organized span:first-child { color: #ff3c00; padding-bottom: 15px; }
+footer p.organized span:last-child { padding-top: 15px; }
+footer address { font-family: 'Segoe UI', sans-serif; font-size: 16px; line-height: 23px; color: #fff; }
+.footer-btm { border-top: solid 1px #060e11; margin: 15px 0 0; padding: 15px 0; }
+.footer-btm p { font-family: 'Segoe UI', sans-serif; font-size: 14px; line-height: 16px; color: #575757; padding: 0; margin: 0; }
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {/*min-height:562px;*/ }
+.carousel-caption { text-align: left; z-index: 10; text-shadow: none; right: 30%; top: 0; bottom: 0; }
+.carousel-caption h2 { text-shadow: none; color: #ff5c12; font-weight: 700; }
+.carousel-caption h2 span { color: #015931; display: block; font-weight: 400; font-size: 21px; text-transform: uppercase; line-height: 21px; }
+.carousel-caption p { margin-bottom: 0; font-size: 21px; line-height: 1.4; font-family: 'Titillium Web', sans-serif; }
+.carousel-caption p.date { font-size: 32px; font-weight: 300; }
+.carousel-caption p.organize strong { font-weight: 700; }
+.carousel-caption p.organize { font-size: 20px; font-weight: 400; }
+.carousel-caption p.organize a { color: #ff5c12; font-weight: 700; }
+.carousel-control.left, .carousel-control.right { background: none; }
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right { height: 90px; }
+.glyphicon-chevron-left:before { content: ''; background: url(../images/slider-arrow-prev.png) no-repeat 0 0; }
+.glyphicon-chevron-right:before { content: ''; background: url(../images/slider-arrow-next.png) no-repeat 0 0; }
+.glyphicon-chevron-left:before, .glyphicon-chevron-right:before { height: 90px; display: block; }
+.carousel .item { background-color: #f1f1f1; }
+.carousel-indicators { bottom: -7px; }
+/* Inner Banner / Call-for-Paper
+-------------------------------------------------- */
+.inner-banner { min-height: 286px; }
+.inner-banner.call-for-paper { background: #9fedf8 url(../images/call-for-paper.jpg) no-repeat 0 0; background-size: cover; }
+.inner-banner .container { position: relative; }
+.inner-banner .carousel-caption { top: 0; left: 36px; right: 0; bottom: 0; padding: 14px 0 0; }
+.track h3 { font-weight: 300; color: #10232e; }
+.track h3 span { color: #ff5c12; }
+.track p { color: #5f6568; }
+p.author-related { background: #f78957; color: #fff; padding: 20px 50px; text-align: center; max-width: 100%; display: table; margin: 25px 0 0; }
+p.author-related a { color: #fffa7c; }
+/*Committee
+-------------------------------------------------- */
+.inner-banner.committe { background: #9fedf8 url(../images/committe.jpg) no-repeat 0 0; background-size: cover; }
+.committee h2 { color: #27a163; font-size: 33px; line-height: 36px; font-weight: 300; margin-top: 0; }
+.committee h3 { font-family: 'Segoe UI', sans-serif; color: #10232e; font-size: 25px; line-height: 27px; font-weight: normal; margin-bottom: 47px; }
+.committee h4 { font-family: 'Segoe UI', sans-serif; background: #f7f7f7; color: #9da1a3; font-size: 25px; line-height: 25px; padding: 0; margin: 0 0 30px; text-transform: uppercase; border-left: 5px solid #27a163; clear: both; overflow: hidden; }
+.committee h4 span { display: block; float: left; font-size: 25px; line-height: 25px; background: #fff; padding: 8px 24px 8px 10px; }
+.committee ul { padding: 4px 0 38px 20px; }
+.committee ul li { font-family: 'Segoe UI', sans-serif; color: #5f6568; font-size: 18px; margin: 20px 0 5px; padding: 0; }
+.committee ul li span { color: #9da1a3; }
+/*Contact
+-------------------------------------------------- */
+.inner-banner.contact { background: #9fedf8 url(../images/contact.jpg) no-repeat 65% center; background-size: cover; }
+.contact-row h6 {
+font-family:font-family: 'Segoe UI'; font-weight: bold; color: #ff3c00; text-transform: uppercase; }
+.contact-row:last-child { padding: 58px 0 0; }
+.contact-row:last-child h6 { font-weight: normal; color: #27a063; text-transform: capitalize; }
+.contact-row p, .contact-row p a { color: #767676; font-size: 21px; line-height: 31px; }
+.contact-row p a:hover { color: #ff3c00; }
+.contact-row p strong.level01 { color: #2a1f1b; text-transform: uppercase; font-size: 17px; }
+.contact-row p span { font-size: 17px; }
+iframe { width: 100%; height: 485px; border: solid 1px #d9d9d9; margin: 35px 0 0; }
+.cnf-link { display: table; margin: 20px auto; }
+.cnf-lin a { }
+/*Registration
+-------------------------------------------------- */
+.registration h2 { color: #27a163; font-size: 33px; line-height: 36px; font-weight: 300; margin-top: 0; }
+.registration h3 { color: #000; font-size: 25px; line-height: 27px; font-weight: 600; margin-top: 50px; }
+.registration h4 { color: #000; font-size: 22px; line-height: 25px; font-weight: 600; margin-top: 20px; padding: 0; }
+.registration p { color: #767676; font-size: 15px; line-height: 19px; padding: 0; margin: 0 0 10px; }
+.registration p.highlight { color: #27a163 }
+.registration ul { padding: 0; margin: 0 0 0 20px; }
+.registration ul li { color: #767676; font-size: 15px; line-height: 19px; padding: 0; margin: 0 0 10px; list-style-type: disc }
+.registration ul ul { margin: 20px 20px 0; }
+.registration ul ul li { list-style-type: decimal; }
+.registration ol { padding: 0; margin: 0 0 0 20px; }
+.registration ol li { color: #767676; font-size: 15px; line-height: 19px; padding: 0; margin: 0 0 10px; }
+.registration ol li span { color: #000; }
+.registration .accoomodation { border: 1px solid #ddd; border-radius: 5px; -webkit-border-radius: 5px; padding: 10px; margin: 0 0 10px; }
+.welcome-text ul.download{margin: 0 0 30px;}
+.welcome-text ul.download li{margin: 0; padding:0; }
+.welcome-text ul.download li a{font-size:18px; line-height:23px; cursor:pointer;}
+
+/*Sponsorship
+-------------------------------------------------- */
+.inner-banner.sponsorship { background: #9fedf8 url(../images/sponsorship.jpg) no-repeat 0 0; background-size: cover; }
+.committee p { min-height: 72px; color: #5f6568; font-size: 18px; }
+.sponsorship-left-spc { padding-bottom: 56px; }
+.sponsorship-left-spc img { margin-right: 28px; }
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 1400px) {
+.carousel-caption { top: 10%; }
+}
+
+@media (max-width: 992px) {
+.welcome-text h1, .welcome-text h4 { padding: 0; }
+.sidbar { border: none; padding: 0; margin: 0; }
+}
+
+@media (min-width: 992px) and (max-width: 1170px) {
+.nav > li > a { padding: 10px 11px; }
+.navbar-default .navbar-nav > li > a { font-size: 15px; }
+.sponsorship-left-spc img { margin-right: 7px; }
+}
+
+@media (max-width: 1199px) {
+/*for mobile menu start*/
+.navbar-header { float: none; }
+.navbar-left, .navbar-right { float: none !important; }
+.navbar-toggle { display: block; margin: 29px 0 0; }
+.navbar-collapse { border-top: 1px solid transparent; }
+.navbar-fixed-top { top: 0; border-width: 0 0 1px; }
+.navbar-collapse.collapse { display: none!important; }
+.navbar-nav { float: left!important; margin-top: 7.5px; width: 100%; }
+.navbar-nav>li { float: none; }
+.navbar-nav>li>a { padding-top: 10px; padding-bottom: 10px; text-align: center; }
+.collapse.in { display: block !important; }
+.navbar-default .navbar-collapse { border-color: #3a3a3a; }
+.top-social-icon { right: inherit; top: -40px; z-index: 2; }
+/*for mobile menu end*/	
+}
+
+@media (min-width: 992px) and (max-width: 1366px) {
+h1 { font-size: 50px; line-height: 55px; }
+h2 { font-size: 37px; line-height: 40px; }
+h3 { font-size: 33px; line-height: 36px; }
+h4 { font-size: 28px; line-height: 33px; }
+h5 { font-size: 23px; line-height: 26px; }
+h6 { font-size: 18px; line-height: 21px; }
+p { font-size: 17px; line-height: 25px; }
+.carousel-caption { /*padding-bottom: 5px;*/ }
+.ece-details p.head-department { font-size: 20px; line-height: 27px; }
+.ece-details p { font-size: 19px; }
+footer ul.footer-navigation li a { font-size: 17px; line-height: 15px;color:white; }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+.carousel-caption { /*top: 0; right: 0; left: 12%;*/ right: 20%; left: 12%; top: 8px; }
+.carousel-caption h2 span { font-size: 17px; }
+.carousel-caption p.date { font-size: 24px; padding-bottom: 0; }
+.carousel-caption p.organize { font-size: 16px; }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+h1 { font-size: 40px; line-height: 45px; }
+h2 { font-size: 27px; line-height: 30px; }
+h3 { font-size: 23px; line-height: 28px; }
+h4 { font-size: 18px; line-height: 23px; }
+h5 { font-size: 13px; line-height: 18px; }
+h6 { font-size: 12px; line-height: 17px; }
+p { font-size: 16px; line-height: 27px; }
+.carousel-caption h2 { margin-top: -10px; }
+.carousel-caption p { padding-bottom: 5px; }
+.carousel-caption p br { display: none; }
+.inner-banner { min-height: 250px; }
+.inner-banner.call-for-paper { background-position: 60% 0; }
+.inner-banner .carousel-caption p.organize span { display: block; }
+.ece-details p.head-department { font-size: 18px; line-height: 25px; }
+footer ul.footer-navigation li a { font-size: 17px; line-height: 15px; }
+.welcome-text h4 { font-size: 25px; }
+.welcome-text ul li { font-size: 20px; width: 50%; float: left; }
+.committee ul.no-space { padding-bottom: 0px; }
+}
+
+@media (min-width: 768px) and (max-width: 1366px) {
+footer ul.footer-imp-text li { font-size: 20px; }
+footer ul.footer-imp-text li span { font-size: 15px; }
+footer p.organized span { font-size: 16px; }
+}
+
+@media (min-width: 1190px) and (max-width: 1366px) {
+.carousel-caption { /*padding-bottom: 50px;*/ }
+}
+
+@media (max-width: 991px) {
+.committee p { min-height: inherit; font-size: 15px; }
+.committee img { margin-bottom: 15px; }
+.sponsorship-left-spc { padding-bottom: 16px; }
+.sponsorship-left-spc img { margin-right: 9px; }
+.committee h4 span { font-size: 17px; }
+}
+
+@media (max-width: 767px) {
+h1 { font-size: 35px; line-height: 38px; }
+h2 { font-size: 30px; line-height: 33px; }
+h3 { font-size: 27px; line-height: 30px; }
+h4 { font-size: 22px; line-height: 25px; }
+h5 { font-size: 18px; line-height: 18px; }
+h6 { font-size: 15px; line-height: 17px; }
+p { font-size: 16px; }
+.carousel-caption { /*padding-bottom: 0px;*/ top: 0; right: 5%; left: 5%; text-align: center; }
+.carousel-caption h2 { margin-top: 0px; }
+.carousel-inner > .item > img { /*display: none;*/ max-width: inherit; }
+.carousel-caption p.organize { font-size: 15px; }
+.carousel-caption p.organize br { display: none; }
+.carousel .item { height: 320px; }
+.welcome-text ul li { font-size: 20px; width: 50%; float: left; }
+.about-ece h3 { padding: 15px 0 22px; }
+footer { margin: 18px 0 0; padding: 25px 0 0; }
+footer ul.footer-navigation { margin-bottom: 15px; }
+footer p.organized { padding: 0; }
+.footer-btm, .footer-btm p.text-right { text-align: center; }
+.footer-btm p.text-right { text-align: center; padding: 5px 0; }
+.inner-banner .carousel-caption { top: 20px; left: 0; right: 0; bottom: 0; padding: 14px; position: relative; }
+.inner-banner { min-height: 260px; }
+.inner-banner.call-for-paper { background-position: 44% 0; }
+.committee ul li { width: 100%; }
+.committee ul.no-space { padding-bottom: 0px; }
+}
+
+@media (max-width: 480px) {
+.navbar-default .navbar-brand { width: 280px; }
+.carousel-caption h2 span { font-size: 17px; }
+.carousel-caption h2 { font-size: 20px; line-height: 22px; }
+.carousel-caption p.organize { font-size: 15px; padding-bottom: 10px; }
+.carousel-caption p.date { font-size: 21px; font-weight: 300; padding-bottom: 8px; }
+.welcome-text ul li { width: 100%; }
+.inner-banner .carousel-caption { top: 10px; }
+.inner-banner.call-for-paper { background-position: 53% 0; }
+}
+
+@media (max-width: 374px) {
+.navbar-default .navbar-brand { width: 220px; }
+.navbar-toggle { display: block; margin: 17px 10px 0; }
+}
+
+@media (min-width:501px) and (max-width: 767px) {
+footer { padding: 0; }
+footer h4 { padding-bottom: 0; }
+footer ul.footer-imp-text li { font-size: 18px; }
+footer ul.footer-imp-text li span { font-size: 16px; }
+footer .col-xs-12 { width: 50%; background: #060d0f; padding-top: 33px; min-height: 480px; }
+footer .col-xs-12:last-child { width: 60%; margin-left: 20%; background: #0a161a; text-align: center; min-height: inherit; }
+footer .footer-btm .col-xs-12 { width: 100%; background: transparent; padding-top: 0; min-height: inherit; }
+footer .footer-btm .col-xs-12:last-child { margin-left: 0; background: transparent; }
+}
+
+@media (min-width:320px) and (max-width: 500px) {
+.ece-details { padding: 15px 0 0; }
+.ece-details p { font-size: 16px; line-height: 22px; }
+.ece-details p.head-department { font-size: 16px; line-height: 19px; }
+footer ul.footer-navigation li a { font-size: 17px; line-height: 15px; }
+.welcome-text h4 { font-size: 25px; }
+.welcome-text ul li { font-size: 20px; }
+footer ul.footer-imp-text li { font-size: 19px; }
+}
